@@ -1,0 +1,14 @@
+project_name: MammoAssist AI
+dataset: CBIS-DDSM
+subset: mass
+task: binary_classification
+image_type: full_mammogram
+positive_class: MALIGNANT
+input_size: 224
+random_seed: 42
+preprocessing:
+  version: canonical_v1
+  crop_background: true
+  crop_margin_fraction: 0.02
+  cache_directory: data/processed/cache
+  cache_dtype: float32

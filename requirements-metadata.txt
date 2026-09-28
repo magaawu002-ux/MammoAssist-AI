@@ -1,0 +1,2 @@
+# Optional: CMMD clinical workbook parsing
+openpyxl==3.1.5

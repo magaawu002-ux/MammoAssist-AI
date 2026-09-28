@@ -1,0 +1,5 @@
+group,category,malignant_images,false_negative_images,false_negative_rate
+view,CC,66,18,0.2727272727272727
+view,MLO,79,23,0.2911392405063291
+laterality,LEFT,73,17,0.2328767123287671
+laterality,RIGHT,72,24,0.3333333333333333

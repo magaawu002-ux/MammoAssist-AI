@@ -1,0 +1,24 @@
+dataset: CMMD
+mode: external_validation
+training_allowed: false
+fine_tuning_allowed: false
+threshold_tuning_allowed: false
+model_selection_allowed: false
+calibration_allowed: false
+selected_model: resnet50
+checkpoint: results/experiments/resnet50/20260925T083032_895231Z/best_model.keras
+checkpoint_sha256: 0076686617cb29ad5e5682f3d1eff89fae9cad2cebffa86e2b8be2b537934384
+classifier_threshold: 0.3753475248813629
+input_size: 224
+output_root: results/external_validation/CMMD
+inference_enabled: false
+official_test_evaluation_allowed: false
+status: READY_FOR_CMMD_IMAGE_DOWNLOAD
+cohort_protocol: reports/evidence/external_validation/CMMD/cmmd_external_protocol.json
+preprocessing:
+  source_config: config/project.yaml
+  canonical_function: src.preprocessing.canonical.preprocess_dicom
+  adapter_function: src.preprocessing.model_inputs.transfer_input
+  adapter_family: resnet50
+  version: canonical_v1
+  harmonisation_status: PENDING_DICOM_REVIEW

@@ -1,0 +1,20 @@
+# Starting protocol, not tuned or claimed optimal.
+batch_size: 16
+epochs: 30
+learning_rate: 0.001
+optimizer: adam
+loss: binary_crossentropy
+early_stopping_patience: 7
+reduce_lr:
+  enabled: true
+  factor: 0.5
+  patience: 3
+  min_learning_rate: 0.000001
+class_weight: false
+threshold_method: youden_j
+augmentation: none
+transfer:
+  weights: null
+  fine_tuning_epochs: 0
+  fine_tuning_learning_rate: 0.00001
+  unfreeze_from: null

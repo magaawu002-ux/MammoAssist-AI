@@ -1,0 +1,6 @@
+{
+  "protocol": "reports/evidence/roi_alignment_protocol.json",
+  "protocol_sha256": "674f32236b55eae2d831509e5b6fb3206eb14c9a6a0a605876e0ea8d9977429e",
+  "hash_scheme": "sha256_lf_text_v1",
+  "scope": "Coordinate rule only; not a final Test localisation lock"
+}

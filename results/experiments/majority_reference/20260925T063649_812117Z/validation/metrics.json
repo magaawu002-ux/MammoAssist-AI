@@ -1,0 +1,23 @@
+{
+  "threshold": 0.5,
+  "n": 250,
+  "tn": 127,
+  "fp": 0,
+  "fn": 123,
+  "tp": 0,
+  "accuracy": 0.508,
+  "sensitivity": 0.0,
+  "specificity": 1.0,
+  "precision": null,
+  "f1": 0.0,
+  "balanced_accuracy": 0.5,
+  "roc_auc": 0.5,
+  "pr_auc": 0.492,
+  "pr_auc_definition": "average_precision",
+  "brier_score": 0.492,
+  "undefined_metrics": [
+    "precision"
+  ],
+  "edge_case_note": "",
+  "partition": "validation"
+}

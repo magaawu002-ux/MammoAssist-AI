@@ -1,0 +1,13 @@
+# Results and scientific qualifications
+
+The CSV files in `reports/aggregate/` are byte-identical copies of the verified Chapter 5 asset data. Table 6 is Validation only; Table 7 is official CBIS-DDSM Test; Table 8 is Validation-only exploratory robustness/occlusion; Table 9 consistently reports image-union localisation; Table 10 is primary CMMD image-level evaluation. The separate side-level CSV is post-hoc exploratory.
+
+All final ResNet50 decisions use threshold `0.3753475248813629`. Primary Test/CMMD uncertainty uses saved participant-cluster percentile bootstrap intervals, 2,000 replicates, seed 42. Images within participants are not independent. Average precision depends on prevalence and must not be interpreted as an unqualified cross-dataset ranking. Brier score reflects both discrimination and calibration; no CMMD calibration was fitted.
+
+CBIS-DDSM Test: TN 104, FP 112, FN 41, TP 104. CMMD: TN 254, FP 568, FN 291, TP 1169. CMMD CC: TN 29, FP 382, FN 26, TP 704; MLO: TN 225, FP 186, FN 265, TP 465. The audit did not find a checked linkage, label or examined header defect explaining the view difference. Its cause remains unresolved; no biological or acquisition cause is claimed.
+
+Localisation used eligible, validated equal-grid reference masks. Unequal/unproven alignment was excluded rather than forced by proportional resizing. Image-union mean IoU was approximately 0.0153 on Validation and 0.0143 on Test. Grad-CAM uses the malignant sigmoid output, not a logit; heatmap threshold 0.5 is distinct from the classifier threshold. The matched occlusion result did not support the expected high-attention score-drop behaviour and is not causal proof.
+
+The original global CBIS selection/Test receipt was reconstructed later from preserved artefacts/hashes, so its original timestamp cannot be independently established. This limitation remains material. CMMD format-conversion eligibility was amended before predictions to accommodate the documented TIFF-to-DICOM release; this is not evidence of independent clinician validation. Detailed review provenance remains in the development archive and must accompany any stronger review claim.
+
+Source milestone: `0494ddb5ef13ec7c766c0971b455dcbae003873e`. The final audit found no result-invalidating implementation defect, but retained report/provenance, environment, licensing and manual-acceptance actions. The public copy does not claim those actions have been completed. Full historical reports and patient-level artefacts are intentionally excluded, not rewritten; see the copy inventory for the original source of every included file.

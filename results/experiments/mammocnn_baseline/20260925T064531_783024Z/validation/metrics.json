@@ -1,0 +1,21 @@
+{
+  "threshold": 0.4666441082954407,
+  "n": 250,
+  "tn": 77,
+  "fp": 50,
+  "fn": 44,
+  "tp": 79,
+  "accuracy": 0.624,
+  "sensitivity": 0.6422764227642277,
+  "specificity": 0.6062992125984252,
+  "precision": 0.6124031007751938,
+  "f1": 0.626984126984127,
+  "balanced_accuracy": 0.6242878176813265,
+  "roc_auc": 0.6302413417834966,
+  "pr_auc": 0.6371271635609606,
+  "pr_auc_definition": "average_precision",
+  "brier_score": 0.23591447182984246,
+  "undefined_metrics": [],
+  "edge_case_note": "",
+  "partition": "validation"
+}

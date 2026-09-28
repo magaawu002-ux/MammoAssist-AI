@@ -1,0 +1,15 @@
+# Direct/runtime packages pinned from the observed Windows Python 3.12.10 environment.
+# Clean installation has not yet been validated. See docs/ENVIRONMENT.md.
+tensorflow==2.21.0
+keras==3.15.1
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+pydicom==3.0.2
+opencv-python==5.0.0.93
+pillow==12.3.0
+streamlit==1.64.0
+pyyaml==6.0.3
+reportlab==5.0.1

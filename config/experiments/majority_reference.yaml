@@ -1,0 +1,2 @@
+model: majority_reference
+threshold_method: fixed_0.5

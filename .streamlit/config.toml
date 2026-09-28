@@ -1,0 +1,8 @@
+[server]
+address = "127.0.0.1"
+maxUploadSize = 128
+enableXsrfProtection = true
+enableCORS = true
+
+[browser]
+gatherUsageStats = false

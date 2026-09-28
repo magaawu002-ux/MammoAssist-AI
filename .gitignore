@@ -1,0 +1,52 @@
+# Local environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+# Private configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+# Medical/source data and derived arrays
+*.dcm
+*.dicom
+*.DCM
+*.npy
+*.npz
+*.xlsx
+*.xls
+*.zip
+*.7z
+*.tar
+*.gz
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+!/data/README.md
+# Model weights stay local
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+/models/**
+!/models/**/
+!/models/**/.gitkeep
+# Restricted runtime evidence (restore locally, never upload)
+/results/experiments/final_selection.json
+/results/explainability/localisation_lock.json
+/reports/evidence/roi_alignment_protocol.json
+/reports/evidence/preprocessing_validation.json
+/reports/evidence/final_localisation/summary.json
+/reports/evidence/robustness/stability_summary.json
+# Do not accidentally add new participant-level outputs
+**/predictions.csv
+**/per_case.csv
+**/per_lesion.csv
+**/image_union.csv

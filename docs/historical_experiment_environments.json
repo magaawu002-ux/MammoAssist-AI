@@ -1,0 +1,107 @@
+[
+  {
+    "model": "efficientnetb0",
+    "environment": {
+      "python": "3.13.15",
+      "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+      "processor": "x86_64",
+      "tensorflow": "2.20.0",
+      "keras": "3.13.2",
+      "numpy": "2.1.3",
+      "devices": [
+        "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')",
+        "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+      ],
+      "git_commit": null
+    },
+    "source": "results/experiments/efficientnetb0/20260925T085210_006731Z/run_metadata.json",
+    "source_sha256": "cf85b2abdbe29535ab780fbb8d66f73fa059b26e03b3f2eeb0759ab8966d787e"
+  },
+  {
+    "model": "majority_reference",
+    "environment": {
+      "python": "3.12.10",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+      "tensorflow": "2.21.0",
+      "keras": "3.15.1",
+      "numpy": "2.5.3",
+      "devices": [
+        "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')"
+      ],
+      "git_commit": "1a3a4a824dee22fd28424d1f7e81fad47e5a6e6e"
+    },
+    "source": "results/experiments/majority_reference/20260925T063649_812117Z/run_metadata.json",
+    "source_sha256": "86649bc24e4f3b7a5cd9d911d34f602a7c6b5ff5300cb087422cea5fb129ce9d"
+  },
+  {
+    "model": "mammocnn_baseline",
+    "environment": {
+      "python": "3.12.10",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+      "tensorflow": "2.21.0",
+      "keras": "3.15.1",
+      "numpy": "2.5.3",
+      "devices": [
+        "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')"
+      ],
+      "git_commit": "1a3a4a824dee22fd28424d1f7e81fad47e5a6e6e"
+    },
+    "source": "results/experiments/mammocnn_baseline/20260925T064531_783024Z/run_metadata.json",
+    "source_sha256": "4bd653aa00a5826d32c70974de40434a26945717cd476fb266a313232057125f"
+  },
+  {
+    "model": "mammocnn_regularised",
+    "environment": {
+      "python": "3.12.10",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+      "tensorflow": "2.21.0",
+      "keras": "3.15.1",
+      "numpy": "2.5.3",
+      "devices": [
+        "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')"
+      ],
+      "git_commit": "1a3a4a824dee22fd28424d1f7e81fad47e5a6e6e"
+    },
+    "source": "results/experiments/mammocnn_regularised/20260925T065949_855304Z/run_metadata.json",
+    "source_sha256": "193b89b76e508cbc4a10e8a6174886dfedd138a6c11d944febf6b5d6770ce01d"
+  },
+  {
+    "model": "resnet50",
+    "environment": {
+      "python": "3.13.15",
+      "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+      "processor": "x86_64",
+      "tensorflow": "2.20.0",
+      "keras": "3.13.2",
+      "numpy": "2.1.3",
+      "devices": [
+        "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')",
+        "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+      ],
+      "git_commit": null
+    },
+    "source": "results/experiments/resnet50/20260925T083032_895231Z/run_metadata.json",
+    "source_sha256": "cf54753a9f8cf870113d0bf308865bf9b8593469f1c43f5148dd9c9fbaa5b2a5"
+  },
+  {
+    "model": "vgg16",
+    "environment": {
+      "python": "3.13.15",
+      "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+      "processor": "x86_64",
+      "tensorflow": "2.20.0",
+      "keras": "3.13.2",
+      "numpy": "2.1.3",
+      "devices": [
+        "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')",
+        "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+      ],
+      "git_commit": null
+    },
+    "source": "results/experiments/vgg16/20260925T080929_026569Z/run_metadata.json",
+    "source_sha256": "f5505a77f3368acff368dbc4b7ce9fb7b264fc6760ed14df81e85ed99db63cee"
+  }
+]

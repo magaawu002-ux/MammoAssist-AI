@@ -1,0 +1,44 @@
+[
+  {
+    "path": "results/experiments/resnet50/20260925T083032_895231Z/best_model.keras",
+    "bytes": 214670418,
+    "sha256": "0076686617cb29ad5e5682f3d1eff89fae9cad2cebffa86e2b8be2b537934384",
+    "included": false
+  },
+  {
+    "path": "results/experiments/final_selection.json",
+    "bytes": 12186,
+    "sha256": "6345c7d11f38967719576d84f3562bcaf9c2514cc68ea6f9121c5d49106f0106",
+    "included": false
+  },
+  {
+    "path": "results/explainability/localisation_lock.json",
+    "bytes": 5271,
+    "sha256": "001d88a32c6ac64759ea1dd5a6b1b0d76fe6e8bf823f85ec9292b3a249e03cb1",
+    "included": false
+  },
+  {
+    "path": "reports/evidence/roi_alignment_protocol.json",
+    "bytes": 24021,
+    "sha256": "5807d2ede3a04a5f9835d03b62956e8ebc0ebed68c737e1be2f92a3995c388b0",
+    "included": false
+  },
+  {
+    "path": "reports/evidence/preprocessing_validation.json",
+    "bytes": 351489,
+    "sha256": "9b84dd2274d269791ced3d589a518400774841c0d6920ccfdaf20e18152bc569",
+    "included": false
+  },
+  {
+    "path": "reports/evidence/final_localisation/summary.json",
+    "bytes": 27066,
+    "sha256": "f2c1b739dc6646e0404bbf5dd2a0d285c1252d7309379e4251c66f20496c151b",
+    "included": false
+  },
+  {
+    "path": "reports/evidence/robustness/stability_summary.json",
+    "bytes": 4807,
+    "sha256": "bbf6b0003e26835cc830c596229553aa9ac3f4a81074719d17693629707281ab",
+    "included": false
+  }
+]

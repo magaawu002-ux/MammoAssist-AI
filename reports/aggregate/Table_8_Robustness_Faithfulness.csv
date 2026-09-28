@@ -1,0 +1,12 @@
+Analysis,Condition,Measure,Count,Rate,Value,Note
+Validation-only exploratory robustness,brightness_down,Prediction flips,7,0.028,,
+Validation-only exploratory robustness,brightness_up,Prediction flips,15,0.06,,
+Validation-only exploratory robustness,contrast_down,Prediction flips,52,0.208,,Largest flip count
+Validation-only exploratory robustness,contrast_up,Prediction flips,15,0.06,,
+Validation-only exploratory robustness,noise,Prediction flips,31,0.124,,
+Validation-only exploratory robustness,blur,Prediction flips,16,0.064,,
+Validation-only exploratory robustness,jpeg,Prediction flips,15,0.06,,
+Validation-only exploratory occlusion,Matched high/low attention,Eligible cases,,,241,
+Validation-only exploratory occlusion,Matched high/low attention,Mean high-attention score drop,,,-0.10137943754212243,
+Validation-only exploratory occlusion,Matched high/low attention,Mean matched low-attention score drop,,,-0.06750268362369775,
+Validation-only exploratory occlusion,Matched high/low attention,Proportion high-attention drop > low-attention drop,,,0.38589211618257263,

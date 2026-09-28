@@ -1,0 +1,33 @@
+{
+  "method": "participant_cluster_percentile",
+  "seed": 42,
+  "iterations": 2000,
+  "confidence": 0.95,
+  "threshold_fixed": 0.3753475248813629,
+  "intervals": {
+    "sensitivity": {
+      "lower": 0.6337910798122066,
+      "upper": 0.7943262411347518,
+      "valid_replicates": 2000,
+      "invalid_replicates": 0
+    },
+    "specificity": {
+      "lower": 0.40277620663650077,
+      "upper": 0.5588437668645438,
+      "valid_replicates": 2000,
+      "invalid_replicates": 0
+    },
+    "balanced_accuracy": {
+      "lower": 0.5429391543492921,
+      "upper": 0.6530797838045063,
+      "valid_replicates": 2000,
+      "invalid_replicates": 0
+    },
+    "roc_auc": {
+      "lower": 0.6046775270584795,
+      "upper": 0.7327436974789915,
+      "valid_replicates": 2000,
+      "invalid_replicates": 0
+    }
+  }
+}

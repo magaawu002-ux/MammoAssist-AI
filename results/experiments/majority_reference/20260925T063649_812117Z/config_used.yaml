@@ -1,0 +1,36 @@
+experiment:
+  augmentation: none
+  batch_size: 16
+  class_weight: false
+  early_stopping_patience: 7
+  epochs: 30
+  learning_rate: 0.001
+  loss: binary_crossentropy
+  model: majority_reference
+  optimizer: adam
+  reduce_lr:
+    enabled: true
+    factor: 0.5
+    min_learning_rate: 1.0e-06
+    patience: 3
+  threshold_method: fixed_0.5
+  transfer:
+    fine_tuning_epochs: 0
+    fine_tuning_learning_rate: 1.0e-05
+    unfreeze_from: null
+    weights: null
+project:
+  dataset: CBIS-DDSM
+  image_type: full_mammogram
+  input_size: 224
+  positive_class: MALIGNANT
+  preprocessing:
+    cache_directory: data/processed/cache
+    cache_dtype: float32
+    crop_background: true
+    crop_margin_fraction: 0.02
+    version: canonical_v1
+  project_name: MammoAssist AI
+  random_seed: 42
+  subset: mass
+  task: binary_classification

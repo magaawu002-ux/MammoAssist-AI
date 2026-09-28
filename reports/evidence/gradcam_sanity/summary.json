@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE",
+  "partition": "validation",
+  "method": "fixed_matched_patch_mean_replacement",
+  "n_total": 250,
+  "n_eligible": 241,
+  "participants": 138,
+  "status_counts": {
+    "eligible": 241,
+    "zero_heatmap": 2,
+    "no_disjoint_matched_lower_attention_patch": 7
+  },
+  "mean_drop_high": -0.10137943754212243,
+  "mean_drop_low": -0.06750268362369775,
+  "mean_paired_difference": -0.03387675391842468,
+  "high_larger_drop_fraction": 0.38589211618257263,
+  "high_score_increase_count": 187,
+  "low_score_increase_count": 168,
+  "paired_participant_cluster_95ci": {
+    "mean_drop_high": {
+      "lower": -0.12404964149937425,
+      "upper": -0.08060597981700067
+    },
+    "mean_drop_low": {
+      "lower": -0.08507505204552884,
+      "upper": -0.049143829093661294
+    },
+    "mean_paired_difference": {
+      "lower": -0.061608793452392785,
+      "upper": -0.006637148424746275
+    },
+    "high_larger_drop_fraction": {
+      "lower": 0.3193186757461605,
+      "upper": 0.4472899411366357
+    }
+  },
+  "bootstrap_iterations": 2000,
+  "caveat": "Exploratory intervention sensitivity, not a proof of faithfulness or clinical localisation. Occlusion is distribution-shifting; matching is approximate. No tuning.",
+  "no_test_pixels_or_predictions": true
+}

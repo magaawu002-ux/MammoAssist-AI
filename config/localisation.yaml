@@ -1,0 +1,8 @@
+# Prespecified protocol; this threshold is unrelated to the classifier threshold.
+version: localisation_v1
+roi_root: data/raw/CBIS-DDSM/roi_cropped
+alignment_reviews: data/interim/roi_alignment_reviews.csv
+heatmap_rule: fixed_normalised_threshold
+heatmap_threshold: 0.5
+target_layer: conv5_block3_out
+overlay_limit: 6

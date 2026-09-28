@@ -1,0 +1,3 @@
+model: mammocnn_regularised
+dropout: 0.3
+l2: 0.0001
